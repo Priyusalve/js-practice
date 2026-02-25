@@ -15,7 +15,7 @@ const anotherId = Symbol('123')
 // console.log(id == anotherId);
 
 const bigNumber = 376835742362638729n
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 
 
 // Reference type (Non Primitive)
@@ -31,4 +31,8 @@ let byObj = {        // Objects in curly braces
 
 // console.log(byObj);
 
+const myFunction = function(){
+    console.log("Hello World");
+}
 
+console.log(myFunction);
